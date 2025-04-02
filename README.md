@@ -11,16 +11,16 @@ Harveston's climate is shifting unpredictably, affecting agriculture and food se
 - Wind Direction (°)
 
 ## Models Used
-### 1. RandomForestRegressor (Code 1)
+### 1. RandomForestRegressor ([Code 1](code%201.py))
 - Uses **Random Forest**, an ensemble learning model that builds multiple decision trees and averages their predictions.
 - Handles feature engineering, categorical encoding, and missing data preprocessing.
 
-### 2. LightGBM (Code 2)
+### 2. LightGBM ([Code 2](code%202.py))
 - Implements **LightGBM**, an optimized **ensemble gradient boosting model** that builds trees sequentially to improve predictions.
 - Uses boosting techniques for efficient learning and high performance.
 - Performs hyperparameter tuning and feature extraction.
 
-### 3. XGBoost (Code 3)
+### 3. XGBoost ([Code 3](code%203.py))
 - Uses **XGBoost**, another powerful **ensemble gradient boosting model** known for efficiency and regularization.
 - Applies gradient boosting with optimized tree-building techniques.
 - Handles categorical encoding, missing values, and feature engineering.
