@@ -35,6 +35,11 @@ Harveston's climate is shifting unpredictably, affecting agriculture and food se
 - Applies boosting by adjusting model weights iteratively to improve accuracy.
 - Optimizes tree depth, learning rate, and subsampling for enhanced performance and generalization.
 
+### 6. BaggingRegressor ([Code 6](code%206.py))
+- Implements Bagging, an ensemble learning method that trains multiple base regressors (Decision Trees) on random subsets of the data and averages their predictions.
+- Enhances model stability, reduces variance, and improves generalization by combining multiple weak learners.
+- Uses bootstrap sampling and feature selection to improve robustness and mitigate overfitting.
+
 ## Dataset
 - The dataset contains historical environmental records from different kingdoms in Harveston.
 - The test dataset includes `ID`, `Year`, `Month`, `Day`, and `kingdom`, requiring predictions for the five target variables.
