@@ -1,4 +1,4 @@
-# Data-Crunch
+# Data Crunch - CSE, UoM
 
 # Harveston Climate Prediction 🌾🌦️
 
@@ -28,3 +28,10 @@ Harveston's climate is shifting unpredictably, affecting agriculture and food se
 ## Dataset
 - The dataset contains historical environmental records from different kingdoms in Harveston.
 - The test dataset includes `ID`, `Year`, `Month`, `Day`, and `kingdom`, requiring predictions for the five target variables.
+
+## Evaluation Metric
+Predictions are evaluated using **Symmetric Mean Absolute Percentage Error (sMAPE)**:
+
+$$sMAPE = \frac{100\%}{n} \sum_{i=1}^{n} \frac{|y_{true,i} - y_{pred,i}|}{(|y_{true,i}| + |y_{pred,i}|)/2}$$
+
+The final score is the average sMAPE across all target columns.
