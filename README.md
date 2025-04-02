@@ -40,6 +40,11 @@ Harveston's climate is shifting unpredictably, affecting agriculture and food se
 - Enhances model stability, reduces variance, and improves generalization by combining multiple weak learners.
 - Uses bootstrap sampling and feature selection to improve robustness and mitigate overfitting.
 
+### 7. Stack ([Code 7](code%207.py))
+- Implements a stacked ensemble model that combines multiple base regressors to enhance prediction accuracy.
+- Uses diverse base models, including Random Forest, Gradient Boosting, XGBoost, Ridge Regression, and Lasso Regression, to capture different aspects of the data.
+- Employs k-fold cross-validation to generate out-of-fold predictions for training a meta-model (XGBoost) that learns from the base models' outputs.
+
 ## Dataset
 - The dataset contains historical environmental records from different kingdoms in Harveston.
 - The test dataset includes `ID`, `Year`, `Month`, `Day`, and `kingdom`, requiring predictions for the five target variables.
