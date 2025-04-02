@@ -25,6 +25,11 @@ Harveston's climate is shifting unpredictably, affecting agriculture and food se
 - Applies gradient boosting with optimized tree-building techniques.
 - Handles categorical encoding, missing values, and feature engineering.
 
+### 4. LSTM ([Code 4](code%204.py))
+- Uses an LSTM (Long Short-Term Memory) model, a type of recurrent neural network (RNN) designed for sequential data processing.
+- Employs memory cells to capture long-term dependencies and temporal patterns in data.
+- Trains the model with early stopping, batch processing, and validation to optimize performance.
+
 ## Dataset
 - The dataset contains historical environmental records from different kingdoms in Harveston.
 - The test dataset includes `ID`, `Year`, `Month`, `Day`, and `kingdom`, requiring predictions for the five target variables.
